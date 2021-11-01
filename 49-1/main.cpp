@@ -14,6 +14,9 @@ public:
     void print() {cout<<"B::print()"<<endl;}
 };
 
+class C:public A{
+
+};
 
 void print(A* a){
     a->print();
@@ -23,6 +26,9 @@ int main()
 {
     A* b=new B;
     A* a=new A;
+
+    C* c=new C;
+    c->print();
 
     B f;
     A a2 = f;
