@@ -3,17 +3,17 @@
 using namespace std;
 
 #define c 5
-//ºêÊÇÔ¤´¦ÀíÆ÷´¦Àí Ã»ÓÐ×÷ÓÃÓòÓëÀàÐÍ¼ì²é
+//å®æ˜¯é¢„å¤„ç†å™¨å¤„ç† æ²¡æœ‰ä½œç”¨åŸŸä¸Žç±»åž‹æ£€æŸ¥
 
 int main()
 {
     const int a=3;
-    //const³£Á¿ÊÇ±àÒëÆ÷´¦Àí ×÷ÓÃÓòÓëÀàÐÍ¼ì²é
-    //C++µÄconstÊÇÕæÕýµÄ³£Á¿ ±àÒëÆÚ¼äÊ¹ÓÃ³£Á¿a½«Ö±½ÓÓÃ±íÖÐµÄÖµ3Ìæ»»
+    //constå¸¸é‡æ˜¯ç¼–è¯‘å™¨å¤„ç† ä½œç”¨åŸŸä¸Žç±»åž‹æ£€æŸ¥
+    //C++çš„constæ˜¯çœŸæ­£çš„å¸¸é‡ ç¼–è¯‘æœŸé—´ä½¿ç”¨å¸¸é‡aå°†ç›´æŽ¥ç”¨è¡¨ä¸­çš„å€¼3æ›¿æ¢
 
     printf("a=%d\n",a);
     int* p=(int*)&a;
-    //C++ÎªÁË¼æÈÝCÓïÑÔ ÒÀÈ»Îª³£Á¿a·ÖÅäÄÚ´æ¿Õ¼ä µ«Ê¹ÓÃaÊ±²»Ê¹ÓÃaÄÚ´æ¿Õ¼äµÄÖµ ÓÃ³õÊ¼»¯Ê±¹Ì¶¨³£Á¿µÄÖµ
+    //C++ä¸ºäº†å…¼å®¹Cè¯­è¨€ ä¾ç„¶ä¸ºå¸¸é‡aåˆ†é…å†…å­˜ç©ºé—´ ä½†ä½¿ç”¨aæ—¶ä¸ä½¿ç”¨aå†…å­˜ç©ºé—´çš„å€¼ ç”¨åˆå§‹åŒ–æ—¶å›ºå®šå¸¸é‡çš„å€¼
 
     *p=5;
     printf("*p=%d\n",*p);

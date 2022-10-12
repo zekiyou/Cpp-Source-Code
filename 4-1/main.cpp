@@ -6,14 +6,14 @@ using namespace std;
 int main()
 {
     bool b=true;
-    //boolÀàĞÍÊÇC++µÄĞÂÀàĞÍ Ö»Õ¼ÓÃ1 byte ¿ÉÈ¡µÄÖµÖ»ÓĞtrueºÍfalse
-    //trueÔÚ±àÒëÆ÷ÄÚ²¿ÖµÎª1  falseÖµÎª0
+    //boolç±»å‹æ˜¯C++çš„æ–°ç±»å‹ åªå ç”¨1 byte å¯å–çš„å€¼åªæœ‰trueå’Œfalse
+    //trueåœ¨ç¼–è¯‘å™¨å†…éƒ¨å€¼ä¸º1  falseå€¼ä¸º0
 
     printf("sizeof(b)=%d,b=%d\n",sizeof(b),b);
 
     bool c=10;
-    //±àÒëÆ÷ÄÚ²¿trueÖµÎª1£¬flaseÎª0
-    //±àÒëÆ÷»á½«0Öµ×ª»¯Îªfalse£¬·Ç0×ª»¯Îªtrue
+    //ç¼–è¯‘å™¨å†…éƒ¨trueå€¼ä¸º1ï¼Œflaseä¸º0
+    //ç¼–è¯‘å™¨ä¼šå°†0å€¼è½¬åŒ–ä¸ºfalseï¼Œé0è½¬åŒ–ä¸ºtrue
 
     printf("c=%d",c);
 
