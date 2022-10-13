@@ -12,12 +12,12 @@ public:
         age=22;
         weight=40;
 
-        print("gril's age=%d, weight=%d",age,weight);
+        printf("gril's age=%d, weight=%d",age, weight);
 
     }
 };
 
-//C++�еķ�װ
+//C++中的封装
 
 int main()
 {
