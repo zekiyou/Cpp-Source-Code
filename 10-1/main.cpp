@@ -21,9 +21,9 @@ int main()
     }
 
      delete[] p;
-    //C++�Ķ�̬�ڴ���䰴���ͷ���  delete��new�ؼ���
+    //C++的动态内存分配按类型分配  delete与new关键字
 	printf("0x%p\n",p);
-	// delete �� free �� ָ�벻���ؿ� ��Ҫ�ֶ� ����ϰ�� 
+	// delete 和 free 后 指针不会重空 需要手动 养成习惯 
 	p=NULL; 
 	
 	

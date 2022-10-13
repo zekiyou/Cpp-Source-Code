@@ -14,6 +14,7 @@ namespace B {
 
 int main()
 {
+    using A::i;
     using namespace B;
     using C::b;
 

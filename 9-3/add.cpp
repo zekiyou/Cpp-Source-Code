@@ -3,4 +3,4 @@ int add(int a,int b){
     return a+b;
 	}
 }
-//C++函数通过C方式编译 C语言调用C++
+//C++鍑芥暟閫氳繃C鏂瑰紡缂栬瘧 C璇█璋冪敤C++

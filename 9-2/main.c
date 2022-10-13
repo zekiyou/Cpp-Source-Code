@@ -5,15 +5,15 @@ extern "C"{
 #endif
     #include <../9-1/add.h>
 
-    //²»Í¬±àÒë·½Ê½ºó£¬º¯ÊýµÄº¯ÊýÃû²»Í¬
-    //C±àÒëº¯ÊýÃûÖ»´øº¯ÊýÃû C++±àÒë´øº¯ÊýÃûºÍ²ÎÊýÁÐ±í
-    //C++Ê¹ÓÃCº¯Êý ¾Í±ØÐëÖÆ¶¨º¯ÊýÒÔC·½Ê½±àÒë
+    //ä¸åŒç¼–è¯‘æ–¹å¼åŽï¼Œå‡½æ•°çš„å‡½æ•°åä¸åŒ
+    //Cç¼–è¯‘å‡½æ•°ååªå¸¦å‡½æ•°å C++ç¼–è¯‘å¸¦å‡½æ•°åå’Œå‚æ•°åˆ—è¡¨
+    //C++ä½¿ç”¨Cå‡½æ•° å°±å¿…é¡»åˆ¶å®šå‡½æ•°ä»¥Cæ–¹å¼ç¼–è¯‘
 
 #ifdef __cplusplus
 }
 #endif
 
-//ÓÃ__cplusplus¹Ø¼ü×Ö ±£Ö¤ÎÞÂÛÊÇC++»¹ÊÇC¶¼Ê¹ÓÃC±àÒë
+//ç”¨__cpluspluså…³é”®å­— ä¿è¯æ— è®ºæ˜¯C++è¿˜æ˜¯Céƒ½ä½¿ç”¨Cç¼–è¯‘
 
 int main()
 {
