@@ -15,5 +15,5 @@ private:
 
 };
 
-//.h文件完成类的声明
+//.h鏂囦欢瀹屾垚绫荤殑澹版槑
 #endif // OPERATOR_H

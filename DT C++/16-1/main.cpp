@@ -6,14 +6,14 @@ struct A
 {
     int i;
 };
-//C++提供专门的class关键字用于定义类
+//C++鎻愪緵涓撻棬鐨刢lass鍏抽敭瀛楃敤浜庡畾涔夌被
 class B
 {
     int i;
 };
 
-//struct定义类默认成员public
-//class定义类默认成员private
+//struct瀹氫箟绫婚粯璁ゆ垚鍛榩ublic
+//class瀹氫箟绫婚粯璁ゆ垚鍛榩rivate
 int main()
 {
     B b;

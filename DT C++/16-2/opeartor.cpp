@@ -44,4 +44,4 @@ bool Operator::result(double &r){
     }
     return ret;
 }
-//.cpp文件完成类的实现
+//.cpp鏂囦欢瀹屾垚绫荤殑瀹炵幇

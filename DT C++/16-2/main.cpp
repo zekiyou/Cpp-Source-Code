@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    //mainº¯ÊıÊ¹ÓÃÀà ÎŞĞè¹ØĞÄÀàÈçºÎÊµÏÖ Ö»ĞèÒªÊ¹ÓÃ.h
+    //mainå‡½æ•°ä½¿ç”¨ç±» æ— éœ€å…³å¿ƒç±»å¦‚ä½•å®ç° åªéœ€è¦ä½¿ç”¨.h
     Operator op;
     op.setOperator('*');
     op.setParameter(9,8);
